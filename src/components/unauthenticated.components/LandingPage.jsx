@@ -16,7 +16,10 @@ class LandingPage extends Component {
       <div className="App">
         <header className="App-header">
           <p style={{
-            fontFamily: 'DM Sans', color: '#0271E3', fontSize: '50px', fontWeight: 'bold'
+            fontFamily: 'DM Sans',
+            color: '#0271E3',
+            fontSize: '50px',
+            fontWeight: 'bold'
           }}
           >
           Page In Works
