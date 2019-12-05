@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../logo.svg';
-import constructionImg from '../../template/utils/images/hammer.png';
+import constructionImg from '../../template/utils/images/hammer2.svg';
+
 
 /**
  * @class LandingPage
@@ -14,28 +15,28 @@ class LandingPage extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img
-            src={constructionImg}
-            className="App-logo"
-            style={{ height: '40vmin'}}
-            alt="logo"
-
-           />
-          <p style={{ fontFamily: 'DM Sans' }}>
-          Work in progress.
-            <br />
-            <strong
-              style={{ fontSize: '20px' }}
-            >
-            It is almost ready... honest
-            </strong>
-          </p>
-
-          <a
-            className="App-link"
+          <p style={{
+            fontFamily: 'DM Sans', color: '#0271E3', fontSize: '50px', fontWeight: 'bold'
+          }}
           >
-          Dyces
-          </a>
+          Page In Works
+            {' '}
+            {' '}
+            <img
+              src={constructionImg}
+              style={{ height: '40px' }}
+              alt="logo"
+            />
+          </p>
+          <span style={{
+            color: '#FF0000',
+            fontSize: '30px',
+            position: 'absolute',
+            top: '525px',
+          }}
+          >
+            Error 505
+          </span>
         </header>
       </div>
     );
